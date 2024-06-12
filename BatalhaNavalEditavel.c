@@ -21,7 +21,7 @@ int main (){
 	
 	system("cls"); //comando limpar tela
 	
-	//inicializando com espaço as variaveis de preenchimento
+	//inicializando com espaÃ§o as variaveis de preenchimento
 	for (i = 0; i < colunas; i++){
 		for (j = 0; j < linhas; j++){
 			barcos1[i][j] = 32;
@@ -38,9 +38,9 @@ int main (){
 			if(posicionamento_barcos1 == 0){ //se os barcos nao tiverem sido posicionados ainda (ou seja a varivel "posicionamento_de_barcos" tenha o valor 0)
 				for(n = 0; n < barcos_a_serem_posicionados; n++){
 					
-					//começo de printar o mapa ******************
+					//comeÃ§o de printar o mapa ******************
 				
-					//tabela para localização (funciona de 1 a 99)
+					//tabela para localizaÃ§Ã£o (funciona de 1 a 99)
 					for(i = 0; i < colunas; i++){
 						if(i <= 9){
 							printf("   %d", i+1);	
@@ -120,8 +120,8 @@ int main (){
 				turno++; //passa o turno
 			}else{ //se os barcos ja tiverem sido posicionados
 			
-					//começo de printar o mapa ******************
-					//tabela para localização (funciona de 1 a 99)
+					//comeÃ§o de printar o mapa ******************
+					//tabela para localizaÃ§Ã£o (funciona de 1 a 99)
 					for(i = 0; i < colunas; i++){
 						if(i <= 9){
 							printf("   %d", i+1);	
@@ -209,7 +209,7 @@ int main (){
 			
 			system("cls");		//limpa a tela			
 			
-			turno++; //avanço do turno
+			turno++; //avanÃ§o do turno
 			}
 			
 		}else{ //turno do jogador 2 ocorre com turno par
@@ -217,9 +217,9 @@ int main (){
 			if(posicionamento_barcos2 == 0){ //se os barcos nao tiverem sido posicionados ainda (ou seja a varivel "posicionamento_de_barcos" tenha o valor 0)
 				for(n = 0; n < barcos_a_serem_posicionados; n++){
 					
-					//começo de printar o mapa ******************
+					//comeÃ§o de printar o mapa ******************
 				
-					//tabela para localização (funciona de 1 a 99)
+					//tabela para localizaÃ§Ã£o (funciona de 1 a 99)
 					for(i = 0; i < colunas; i++){
 						if(i <= 9){
 							printf("   %d", i+1);	
@@ -284,7 +284,7 @@ int main (){
 					scanf("%c", &linha_barco);
 					printf("\ndigite qual sera a coluna(numero) a posicionar o barco %d\t", n+1);
 					scanf("%d", &coluna_barco);
-					conversor = 0;  //começa converter letra em numero a ser usado no mapa
+					conversor = 0;  //comeÃ§a converter letra em numero a ser usado no mapa
 					for(q = 65; q <= 90; q++){
 						conversor++;
 						if(linha_barco == q){
@@ -299,9 +299,9 @@ int main (){
 				turno++; //passa o turno
 			}else{ //se os barcos ja tiverem sido posicionados (BOMBARDEIO2)
 			
-					//começo de printar o mapa ******************
+					//comeÃ§o de printar o mapa ******************
 				letra = 65;
-					//tabela para localização (funciona de 1 a 99)
+					//tabela para localizaÃ§Ã£o (funciona de 1 a 99)
 					for(i = 0; i < colunas; i++){
 						if(i <= 9){
 							printf("   %d", i+1);	
@@ -388,7 +388,7 @@ int main (){
 			
 			system("cls");		//limpa a tela			
 			
-			turno++; //avanço do turno
+			turno++; //avanÃ§o do turno
 			} //fim dos barcos ja tiverem sido posicionados
 		} //fim do turno 2
 		

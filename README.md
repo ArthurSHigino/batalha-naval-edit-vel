@@ -11,7 +11,5 @@ Como o comando de limpar a tela nativo do Windows é usado (system("cls");) o pr
 ![image](https://github.com/ArthurSHigino/batalha-naval-editavel/assets/167269789/9bf15733-d1c3-4c0e-a263-9c27fb0efe76)
 ![image](https://github.com/ArthurSHigino/batalha-naval-editavel/assets/167269789/1140b630-5fc6-4983-a88c-072fc254cf79)
 ![image](https://github.com/ArthurSHigino/batalha-naval-editavel/assets/167269789/0594a952-f417-46c0-b69e-018f950cc5ad)
-![image](https://github.com/ArthurSHigino/batalha-naval-editavel/assets/167269789/5d1211a9-1c77-4723-81a0-99d01a816110)
-
 
 
